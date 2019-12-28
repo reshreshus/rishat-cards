@@ -4,3 +4,11 @@ body {
     padding: 0 !important;
     // background-color: $color1 !important;
 }
+
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
