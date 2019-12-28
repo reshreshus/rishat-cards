@@ -2,6 +2,7 @@ import React from 'react';
 import './scss/main.scss';
 
 import Card from './components/Card';
+import CardList from './components/CardList';
 
 const card = {
   "title": "I am a card",
@@ -11,7 +12,8 @@ const card = {
 function App() {
   return (
       <div className="container">
-          <Card card={card}/>
+          <CardList />
+
       </div>
   );
 }
